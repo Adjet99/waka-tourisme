@@ -1,0 +1,2 @@
+import { ExplorerClient } from '@/components/ExplorerClient';
+export default function ExplorerPage(){return <main className="container"><header className="page-title"><span className="eyebrow">📍 Autour de moi</span><h1>Qu’est-ce que je peux découvrir aujourd’hui ?</h1><p>Choisissez votre point de départ, votre rayon et vos envies. La recherche tente d’abord de récupérer des points d’intérêt OpenStreetMap en temps réel.</p></header><ExplorerClient/></main>}

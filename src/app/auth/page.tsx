@@ -1,0 +1,2 @@
+import { AuthClient } from '@/components/AuthClient';
+export default function Page(){return <main className="container"><header className="page-title"><span className="eyebrow">🔐 Compte Waka</span><h1>Retrouvez vos aventures partout</h1><p>Créer un compte n’est jamais obligatoire pour découvrir. Il sert à synchroniser favoris, programmes, passeport et préférences entre vos appareils.</p></header><AuthClient/></main>}

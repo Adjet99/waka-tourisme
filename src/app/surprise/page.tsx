@@ -1,0 +1,2 @@
+import { SurpriseClient } from '@/components/SurpriseClient';
+export default function SurprisePage(){return <main className="container"><header className="page-title"><span className="eyebrow">🎲 Fonction signature</span><h1>Surprends-moi</h1><p>La sélection n’utilise pas un simple hasard : les destinations sont scorées selon votre point de départ, la durée, le budget, vos intérêts et la nouveauté, puis une part d’aléatoire conserve l’effet de surprise.</p></header><SurpriseClient/></main>}

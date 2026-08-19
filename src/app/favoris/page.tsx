@@ -1,0 +1,2 @@
+import { FavoritesClient } from '@/components/FavoritesClient';
+export default function Page(){return <main className="container"><header className="page-title"><span className="eyebrow">❤️ Collection</span><h1>Mes favoris</h1><p>Gardez les destinations qui vous tentent. Waka les conserve localement en mode démo et les synchronise avec votre compte lorsque Supabase est activé.</p></header><FavoritesClient/></main>}

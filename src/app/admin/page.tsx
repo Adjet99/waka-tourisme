@@ -1,0 +1,2 @@
+import { AdminClient } from '@/components/AdminClient';
+export default function Page(){return <main className="container"><header className="page-title"><span className="eyebrow">⚙️ Back-office</span><h1>Pilotage Waka</h1><p>Catalogue, qualité des données, premières métriques produit et demandes partenaires. Les opérations d’écriture sont protégées par authentification et RLS lorsque Supabase est configuré.</p></header><AdminClient/></main>}

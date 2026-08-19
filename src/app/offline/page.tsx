@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Page(){return <main className="container"><div className="empty-state offline-state"><div className="empty-icon">📴</div><h1>Vous êtes hors connexion</h1><p>Les pages déjà mises en cache peuvent rester disponibles. Reconnectez-vous pour la météo, les cartes et les nouvelles recherches.</p><Link className="btn green" href="/">Retour à l’accueil</Link></div></main>}

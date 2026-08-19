@@ -1,0 +1,2 @@
+import { ProfileClient } from '@/components/ProfileClient';
+export default function Page(){return <main className="container"><header className="page-title"><span className="eyebrow">👤 Mon espace</span><h1>Profil explorateur</h1><p>Gérez votre ville de résidence, votre passeport ivoirien, vos badges et vos voyages. Avec un compte configuré, ces données sont synchronisées via Supabase ; sans compte, Waka reste utilisable en mode local.</p></header><ProfileClient/></main>}

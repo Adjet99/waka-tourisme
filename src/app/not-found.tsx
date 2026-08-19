@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="container"><div className="empty-state"><div className="empty-icon">🗺️</div><h1>Cette destination n’est pas sur notre carte</h1><p>La page demandée n’existe pas ou n’est plus disponible.</p><div className="filters"><Link className="btn green" href="/">Accueil</Link><Link className="btn ghost" href="/surprise">🎲 Surprends-moi</Link></div></div></main>}

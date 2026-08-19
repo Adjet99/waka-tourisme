@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="container"><div className="page-title"><span className="eyebrow">Waka</span><h1>Préparation de votre aventure…</h1></div><div className="skeleton-grid"><div className="skeleton"/><div className="skeleton"/><div className="skeleton"/></div></main>}
